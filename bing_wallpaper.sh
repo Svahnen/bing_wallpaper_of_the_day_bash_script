@@ -21,7 +21,7 @@ fi
 idx=0
 
 # List of resolutions to try, starting from 4K
-resolutions=("3840x2160" "1920x1080" "1280x720" "1024x768")
+resolutions=("UHD" "1920x1080" "1280x720" "1024x768")
 
 while [ $idx -lt 7 ]; do
   # Download the Bing XML file that contains the URL of the image
